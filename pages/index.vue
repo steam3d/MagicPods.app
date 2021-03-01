@@ -35,7 +35,9 @@
             </span>
           </div>
         </div>
-        <MicrosoftBtn />
+        <div>
+          <microsoft-btn />
+        </div>
       </article>
     </div>
   </v-container>
