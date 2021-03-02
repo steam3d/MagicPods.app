@@ -1,6 +1,14 @@
 <template>
   <v-container fluid class="d-flex align-center justify-center fill-height">
-    <div class="d-flex flex-wrap justify-center">
+    <div class="d-flex flex-wrap justify-center mt-16">
+      <div
+        class="d-flex info-column align-center justify-center"
+        v-if="$isMobile"
+      >
+        <h4 class="text-h4 font-weight-bold pb-12" style="max-width: 9.8em">
+          Add a little magic to your AirPods ✨
+        </h4>
+      </div>
       <div class="d-flex info-column align-center justify-center mb-8">
         <video
           autoplay
@@ -13,11 +21,29 @@
           <source :src="videoSource" type="video/mp4" />
         </video>
       </div>
-      <article class="d-flex flex-column info-column" style="max-width: 1350px">
-        <h3 class="text-h3 font-weight-bold pb-12" style="max-width: 9.8em">
+      <div
+        class="d-flex mb-8 info-column justify-center col-12"
+        v-if="$isMobile"
+      >
+        <microsoft-btn />
+      </div>
+      <article
+        class="d-flex flex-column info-column"
+        :style="{ 'max-width': '1350px', width: $isMobile ? '100%' : '' }"
+      >
+        <h3
+          class="text-h3 font-weight-bold pb-12"
+          style="max-width: 9.8em"
+          v-if="!$isMobile"
+        >
           Add a little magic to your AirPods ✨
         </h3>
-        <div class="d-flex flex-wrap">
+        <div
+          :class="[
+            'd-flex',
+            { 'flex-wrap': !$isMobile, 'flex-column': $isMobile },
+          ]"
+        >
           <div class="d-flex flex-column info-block">
             <h5 class="text-h5 font-weight-bold pb-2">Ear detection</h5>
             <span>Control playback with ear detection function.</span>
@@ -40,7 +66,7 @@
             </span>
           </div>
         </div>
-        <div>
+        <div v-if="!$isMobile">
           <microsoft-btn />
         </div>
       </article>
@@ -68,19 +94,30 @@ export default class Index extends Vue {
 }
 </script>
 
-<style lang="scss" scoped>
-.info-block {
-  min-width: 200px;
-  max-width: 288px;
-  width: calc(50% - 24px);
-  margin-right: 24px;
-  padding-bottom: 32px;
-}
-.info-column {
-  width: 45%;
-  &:nth-child(1) {
-    margin-right: 5%;
+<style lang="scss">
+.app--desktop {
+  .info-block {
+    min-width: 200px;
+    max-width: 288px;
+    width: calc(50% - 24px);
+    margin-right: 24px;
+    padding-bottom: 32px;
   }
-  min-width: 469px;
+  .info-column {
+    width: 45%;
+    &:nth-child(1) {
+      margin-right: 5%;
+    }
+    min-width: 469px;
+  }
+}
+.app--mobile {
+  .info-block {
+    padding: 0 32px;
+    padding-bottom: 32px;
+    span {
+      max-width: 288px;
+    }
+  }
 }
 </style>
