@@ -1,12 +1,17 @@
 <template>
-  <v-container
-    fluid
-    class="d-flex align-center justify-center fill-height"
-    style="max-width: 80%"
-  >
+  <v-container fluid class="d-flex align-center justify-center fill-height">
     <div class="d-flex flex-wrap justify-center">
-      <div class="d-flex info-column">
-        <v-img src="video.png" />
+      <div class="d-flex info-column align-center justify-center mb-8">
+        <video
+          autoplay
+          loop
+          muted
+          preload="auto"
+          width="80%"
+          style="min-width: 469px; max-width: 634px"
+        >
+          <source :src="videoSource" type="video/mp4" />
+        </video>
       </div>
       <article class="d-flex flex-column info-column" style="max-width: 1350px">
         <h3 class="text-h3 font-weight-bold pb-12" style="max-width: 9.8em">
@@ -47,16 +52,28 @@
 import { Vue, Component } from 'vue-property-decorator'
 import MicrosoftBtn from '../components/MicrosoftBtn.vue'
 
+const pickRandom = <T>(variants: T[]): T =>
+  variants[Math.floor(Math.random() * variants.length)]
+
 @Component({
   components: { MicrosoftBtn },
 })
-export default class Index extends Vue {}
+export default class Index extends Vue {
+  videoSources: string[] = [
+    'airpods.mp4',
+    'airpodspro.mp4',
+    'powerbeatspro.mp4',
+  ]
+  videoSource = pickRandom(this.videoSources)
+}
 </script>
 
 <style lang="scss" scoped>
 .info-block {
   min-width: 200px;
   max-width: 288px;
+  width: calc(50% - 24px);
+  margin-right: 24px;
   padding-bottom: 32px;
 }
 .info-column {
