@@ -28,14 +28,16 @@
       >
         Translation
       </v-btn>
-      <v-btn
-        depressed
-        rounded
-        color="primary"
-        href="https://www.microsoft.com/ru-ru/p/magicpods/9p6skkfkshkm"
-      >
-        Download
-      </v-btn>
+      <sparkles-wrapper>
+        <v-btn
+          depressed
+          rounded
+          color="primary"
+          href="https://www.microsoft.com/ru-ru/p/magicpods/9p6skkfkshkm"
+        >
+          Download
+        </v-btn>
+      </sparkles-wrapper>
     </v-app-bar>
     <v-main>
       <nuxt />
@@ -45,8 +47,11 @@
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
+import SparklesWrapper from '~/components/SparklesWrapper.vue'
 
-@Component({})
+@Component({
+  components: { SparklesWrapper },
+})
 export default class Default extends Vue {}
 </script>
 
