@@ -97,14 +97,13 @@ $bdColor: #d2d2d2;
     0% {
       height: $height;
       width: $width;
-      display: block;
     }
     36% {
       height: 0px;
       width: $width;
     }
     100% {
-      display: none;
+      content: none;
       height: 0px;
       width: 0px;
     }
