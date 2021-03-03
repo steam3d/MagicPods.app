@@ -1,11 +1,14 @@
 <template>
-  <v-container fluid class="d-flex align-center justify-center fill-height">
-    <div class="d-flex flex-wrap justify-center mt-16">
+  <v-container fluid class="d-flex align-start justify-center fill-height mt-16">
+    <div class="d-flex flex-wrap justify-center">
       <div
         class="d-flex info-column align-center justify-center"
         v-if="$isMobile"
       >
-        <h4 class="text-h4 font-weight-bold pb-12" style="max-width: 9.8em">
+        <h4
+          class="text-h4 font-weight-bold info-block"
+          style="max-width: 9.8em"
+        >
           Add a little magic to your AirPods ✨
         </h4>
       </div>
@@ -16,7 +19,7 @@
           muted
           preload="auto"
           width="80%"
-          style="min-width: 469px; max-width: 634px"
+          style="min-width: 304px; max-width: 634px"
         >
           <source :src="videoSource" type="video/mp4" />
         </video>

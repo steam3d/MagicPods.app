@@ -73,11 +73,6 @@ import SparklesWrapper from '~/components/SparklesWrapper.vue'
 })
 export default class DefaultXs extends Vue {
   overlay = false
-  mounted() {
-    window?.document
-      ?.querySelector('html')
-      ?.setAttribute('style', 'font-size: 20px')
-  }
 }
 </script>
 
