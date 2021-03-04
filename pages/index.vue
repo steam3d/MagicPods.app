@@ -1,5 +1,13 @@
 <template>
-  <v-container fluid class="d-flex align-start justify-center fill-height mt-16">
+  <v-container
+    fluid
+    :class="[
+      'd-flex',
+      'justify-center',
+      'fill-height',
+      { 'align-start mt-16': $isMobile, 'align-center ': !$isMobile },
+    ]"
+  >
     <div class="d-flex flex-wrap justify-center">
       <div
         class="d-flex info-column align-center justify-center"
