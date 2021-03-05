@@ -102,6 +102,9 @@ $bdColor: #d2d2d2;
       height: 0px;
       width: $width;
     }
+    99% {
+      content: '';
+    }
     100% {
       content: none;
       height: 0px;
