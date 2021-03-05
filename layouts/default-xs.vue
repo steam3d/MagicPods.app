@@ -34,7 +34,14 @@
             </v-btn>
           </v-list-item>
           <v-list-item>
-            <v-btn href :to="'/privacy'" depressed rounded text>
+            <v-btn
+              href
+              :to="'/privacy'"
+              depressed
+              rounded
+              text
+              @click="overlay = false"
+            >
               Privacy
             </v-btn>
           </v-list-item>
