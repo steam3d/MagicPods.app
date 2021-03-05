@@ -27,7 +27,7 @@
           muted
           preload="auto"
           width="80%"
-          style="min-width: 304px; max-width: 634px"
+          style="min-width: 304px; max-width: 634px; pointer-events: none;"
         >
           <source :src="videoSource" type="video/mp4" />
         </video>
