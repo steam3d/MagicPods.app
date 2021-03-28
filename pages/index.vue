@@ -27,7 +27,7 @@
           muted
           preload="auto"
           width="80%"
-          style="min-width: 304px; max-width: 634px; pointer-events: none;"
+          style="min-width: 304px; max-width: 634px; pointer-events: none"
         >
           <source :src="videoSource" type="video/mp4" />
         </video>
@@ -77,8 +77,10 @@
             </span>
           </div>
         </div>
-        <div v-if="!$isMobile">
-          <microsoft-btn />
+        <div v-if="!$isMobile" class="d-flex">
+          <div>
+            <microsoft-btn />
+          </div>
         </div>
       </article>
     </div>

@@ -64,7 +64,12 @@
           </v-list-item>
         </div>
       </v-overlay>
-      <div :style="{ filter: overlay ? 'blur(32px)' : 'none', height: '100%' }">
+      <div
+        :class="{ main__overflowed: overlay }"
+        :style="{
+          height: '100%',
+        }"
+      >
         <nuxt />
       </div>
     </v-main>
@@ -92,6 +97,11 @@ export default class DefaultXs extends Vue {
 }
 header.v-toolbar {
   z-index: 6 !important;
+}
+.main__overflowed {
+  filter: blur(32px);
+  max-height: 100vh;
+  overflow-y: hidden;
 }
 </style>
 
