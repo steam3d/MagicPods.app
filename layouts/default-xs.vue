@@ -46,7 +46,7 @@
             </v-btn>
           </v-list-item>
           <v-list-item>
-            <v-btn href="https://weblate.magicpods.app/" depressed rounded text>
+            <v-btn href="https://weblate.magicpods.app/engage/magicpods-windows/" depressed rounded text>
               Translation
             </v-btn>
           </v-list-item>

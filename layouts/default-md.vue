@@ -20,7 +20,7 @@
         Privacy
       </v-btn>
       <v-btn
-        href="https://weblate.magicpods.app/"
+        href="https://weblate.magicpods.app/engage/magicpods-windows/"
         depressed
         rounded
         color="white"
