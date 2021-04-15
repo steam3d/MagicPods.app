@@ -8,7 +8,7 @@
       </v-toolbar-title>
       <v-spacer />
       <v-btn
-        href="https://github.com/steam3d/MagicPods-Windows/wiki"
+        href="/wiki/index.html"
         depressed
         rounded
         color="white"

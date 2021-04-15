@@ -24,14 +24,7 @@
       >
         <div class="d-flex flex-column justify-center align-center">
           <v-list-item>
-            <v-btn
-              href="https://github.com/steam3d/MagicPods-Windows/wiki"
-              depressed
-              rounded
-              text
-            >
-              FAQ
-            </v-btn>
+            <v-btn href="/wiki/index.html" depressed rounded text> FAQ </v-btn>
           </v-list-item>
           <v-list-item>
             <v-btn
