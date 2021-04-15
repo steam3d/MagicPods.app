@@ -3,7 +3,7 @@
     <v-app-bar flat color="white" absolute>
       <v-toolbar-title>
         <a href="/">
-          <v-img src="logo_with_title.svg" min-width="160" />
+          <v-img src="/logo_with_title.svg" min-width="160" />
         </a>
       </v-toolbar-title>
       <v-spacer />

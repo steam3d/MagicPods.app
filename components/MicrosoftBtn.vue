@@ -5,7 +5,7 @@
       @mouseover="isHovered = true"
       @mouseout="isHovered = false"
     >
-      <v-img src="microsoft_btn.svg" height="48" width="133" />
+      <v-img src="/microsoft_btn.svg" height="48" width="133" />
       <div :class="['anim_block', { 'anim_block--animated': isHovered }]" />
     </div>
   </a>

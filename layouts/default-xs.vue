@@ -3,15 +3,15 @@
     <v-app-bar flat color="white" absolute>
       <v-toolbar-title>
         <a href="/">
-          <v-img src="logo_with_title.svg" min-width="160" />
+          <v-img src="/logo_with_title.svg" min-width="160" />
         </a>
       </v-toolbar-title>
       <v-spacer />
       <v-btn v-if="!overlay" icon @click="overlay = true">
-        <v-img src="icons/burger.svg" class="ma-3" />
+        <v-img src="/icons/burger.svg" class="ma-3" />
       </v-btn>
       <v-btn v-else icon @click="overlay = false">
-        <v-img src="icons/cross.svg" class="ma-3" />
+        <v-img src="/icons/cross.svg" class="ma-3" />
       </v-btn>
     </v-app-bar>
     <v-main>
@@ -46,7 +46,12 @@
             </v-btn>
           </v-list-item>
           <v-list-item>
-            <v-btn href="https://weblate.magicpods.app/engage/magicpods-windows/" depressed rounded text>
+            <v-btn
+              href="https://weblate.magicpods.app/engage/magicpods-windows/"
+              depressed
+              rounded
+              text
+            >
               Translation
             </v-btn>
           </v-list-item>
