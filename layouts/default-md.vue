@@ -14,7 +14,7 @@
         color="white"
         class="mr-4"
       >
-        FAQ
+        Wiki
       </v-btn>
       <v-btn href :to="'/privacy'" depressed rounded color="white" class="mr-4">
         Privacy
@@ -26,7 +26,7 @@
         color="white"
         class="mr-4"
       >
-        Translation
+        Translate
       </v-btn>
       <sparkles-wrapper>
         <v-btn

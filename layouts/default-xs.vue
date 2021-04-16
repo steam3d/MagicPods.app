@@ -24,7 +24,7 @@
       >
         <div class="d-flex flex-column justify-center align-center">
           <v-list-item>
-            <v-btn href="/wiki/index.html" depressed rounded text> FAQ </v-btn>
+            <v-btn href="/wiki/index.html" depressed rounded text> Wiki </v-btn>
           </v-list-item>
           <v-list-item>
             <v-btn
@@ -45,7 +45,7 @@
               rounded
               text
             >
-              Translation
+              Translate
             </v-btn>
           </v-list-item>
           <v-list-item>
