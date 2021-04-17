@@ -3,7 +3,7 @@ Please read the `Resolving known issues` section before contacting the developer
 # Report issue
 
 1. Prepare log files. `Open MagicPods`, go to `Support` page and click on `Debug log`. Add all text files in the open folder to the ZIP archive.
-2. Describe your problem (A clear and concise description of the problem you are facing). Describe the steps you tried to solve the problem yourself (optional). If you are using a laptop please specify the model.
+2. Describe your problem (A clear and concise description of the problem you are facing). Describe the steps you tried to solve the problem yourself (optional). If you are using a laptop, please specify the model.
 3. Add screenshots or video if it helps to better understand your problem
 
 # Using github

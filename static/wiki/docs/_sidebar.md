@@ -9,7 +9,7 @@
   - [Tray icon is too dark](issue-theme.md)
   - [Connectivity issues](issue-connectivity.md)
   - [Bluetooth LE not supported](issue-ble-not-supported.md)
-  - [Switch audio output not avaliable](issue-switch-audio-not-avaliable.md)
+  - [Switch audio output not avaliable](issue-switch-audio-not-available.md)
 
 - [Translate](translate.md) 
 - [Report issue](report-issue.md)

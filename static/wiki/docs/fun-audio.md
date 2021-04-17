@@ -25,7 +25,7 @@ VoiceOver required access to notification to get notification's text to VoiceOve
 
 ### Add an app to list notification apps
 
-By default windows doesn't provides or update information about apps that can send notification. To choose app from which to notifications and VoiceOver them you use 2 ways.
+By default, windows doesn't provides or update information about apps that can send notification. To choose app from which to notifications and VoiceOver them you use 2 ways.
 
 #### First way
 1. `Open MagicPods` and go to `Experimental page`
