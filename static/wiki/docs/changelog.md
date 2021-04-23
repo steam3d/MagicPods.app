@@ -1,3 +1,12 @@
+## 1.0.70.0 (23-04-2021)
+
+This update brings new feature «VoiceOver notification». The built-in announcer will read out new notifications.
+Don't worry, the MagicPods does not collect any data, everything is stored only on your computer.
+
+- Added Swedish, Ukrainian, Italian
+- Updated some languages
+- Added new wiki
+
 ## 1.0.68.0 (18-03-2021)
 
 This update will optimize the application.
