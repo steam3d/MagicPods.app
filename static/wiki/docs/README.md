@@ -13,6 +13,7 @@ The MagicPods introduce the IOS experience of AirPods to Windows.
 ## AirPods Supported
 - AirPods Gen 1, 2
 - AirPods Pro
+- AirPods Max
 - PowerBeats Pro
 
 ## Usage
