@@ -1,7 +1,6 @@
 - Functions
 
   - [Capability](fun-capability.md)
-  - [Audio](fun-audio.md)
   - [General settings](fun-general-settings.md)
   - [Audio](fun-audio.md)
 
