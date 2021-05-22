@@ -1,3 +1,13 @@
+## 1.0.71.0 (22-05-2021)
+
+Say hello to your AirPods Max 👋
+
+New:
+- Add supports AirPods Max
+- Improved response from opening and closing AirPods case
+- Updated translations in many languages
+- Changed the hiding time of the pop-up window from 10 seconds to 30 seconds when clicking on the cross.
+
 ## 1.0.70.0 (23-04-2021)
 
 This update brings new feature «VoiceOver notification». The built-in announcer will read out new notifications.
