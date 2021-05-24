@@ -6,7 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - MagicPods',
+    titleTemplate: '%s - Add a little magic to your AirPods✨',
     title: 'MagicPods',
     htmlAttrs: {
       lang: 'en',
@@ -14,7 +14,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'The MagicPods brings the IOS experience of AirPods to Windows. Battery, ear detection, popup animation, connection, etc.' },
+      { hid: 'keywords', name: 'keywords', content: 'AirPods 1, Airpods 2, AirPods Max, PowerBeats Pro, battery, windows, charge, connect, apple' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' },
