@@ -1,5 +1,5 @@
 <template>
-  <a href="https://www.microsoft.com/ru-ru/p/magicpods/9p6skkfkshkm">
+  <a href="https://www.microsoft.com/store/apps/9P6SKKFKSHKM">
     <div
       class="ms-btn"
       @mouseover="isHovered = true"
