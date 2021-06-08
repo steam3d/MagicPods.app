@@ -55,7 +55,7 @@
               color="primary"
               large
               class="mt-4"
-              href="https://www.microsoft.com/ru-ru/p/magicpods/9p6skkfkshkm"
+              href="https://www.microsoft.com/store/apps/9P6SKKFKSHKM"
             >
               Download
             </v-btn>
