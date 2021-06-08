@@ -24,7 +24,7 @@
       >
         <div class="d-flex flex-column justify-center align-center">
           <v-list-item>
-            <v-btn href="/wiki/index.html" depressed rounded text> Wiki </v-btn>
+            <v-btn href="https://help.magicpods.app/" depressed rounded text> Help </v-btn>
           </v-list-item>
           <v-list-item>
             <v-btn

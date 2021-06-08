@@ -8,13 +8,13 @@
       </v-toolbar-title>
       <v-spacer />
       <v-btn
-        href="/wiki/index.html"
+        href="https://help.magicpods.app/"
         depressed
         rounded
         color="white"
         class="mr-4"
       >
-        Wiki
+        Help
       </v-btn>
       <v-btn href :to="'/privacy'" depressed rounded color="white" class="mr-4">
         Privacy

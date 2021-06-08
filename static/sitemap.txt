@@ -1,15 +1,4 @@
 https://magicpods.app/
 https://magicpods.app/privacy
-https://magicpods.app/wiki/index.html#/
-https://magicpods.app/wiki/index.html#/fun-capability
-https://magicpods.app/wiki/index.html#/fun-general-settings
-https://magicpods.app/wiki/index.html#/fun-audio
-https://magicpods.app/wiki/index.html#/issue-infinite-search
-https://magicpods.app/wiki/index.html#/issue-theme
-https://magicpods.app/wiki/index.html#/issue-connectivity
-https://magicpods.app/wiki/index.html#/issue-ble-not-supported
-https://magicpods.app/wiki/index.html#/issue-switch-audio-not-available
-https://magicpods.app/wiki/index.html#/translate
-https://magicpods.app/wiki/index.html#/changelog
 https://magicpods.app/magicselect/
 https://magicpods.app/magicselect/privacy.html
