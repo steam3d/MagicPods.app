@@ -8,6 +8,16 @@
       </v-toolbar-title>
       <v-spacer />
       <v-btn
+        href
+        :to="'/more-apps'"
+        depressed
+        rounded
+        color="white"
+        class="mr-4"
+      >
+        More apps
+      </v-btn>
+      <v-btn
         href="https://help.magicpods.app/"
         depressed
         rounded
