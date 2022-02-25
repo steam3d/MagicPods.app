@@ -24,7 +24,20 @@
       >
         <div class="d-flex flex-column justify-center align-center">
           <v-list-item>
-            <v-btn href="https://help.magicpods.app/" depressed rounded text> Help </v-btn>
+            <v-btn
+              href="/more-apps"
+              depressed
+              rounded
+              text
+              @click="overlay = false"
+            >
+              More apps
+            </v-btn>
+          </v-list-item>
+          <v-list-item>
+            <v-btn href="https://help.magicpods.app/" depressed rounded text>
+              Help
+            </v-btn>
           </v-list-item>
           <v-list-item>
             <v-btn

@@ -4,88 +4,105 @@
       class="d-flex flex-wrap justify-center align-center flex-column"
       style="max-width: 896px"
     >
-      <h5 class="text-h3 font-weight-bold pb-2">More apps ✨</h5>
+      <h5 class="text-h3 font-weight-bold mb-12">More apps ✨</h5>
       <div class="apps-container">
-        <div class="d-flex pa-6 border rounded-md">
-          <div class="mr-6 d-none d-sm-block">
-            <v-img src="/img/MagicPodsLogo.png" class="rounded-md" />
-          </div>
-          <div class="d-flex flex-column">
-            <div class="text-h5 font-weight-bold mb-2 d-flex align-center">
-              <div class="d-sm-none mr-4">
-                <v-img
-                  src="/img/MagicPodsLogo.png"
-                  class="rounded-md"
-                  width="48"
-                  height="48"
-                />
+        <a
+          class="border hover:border-rainbow"
+          href="https://www.microsoft.com/store/apps/9P6SKKFKSHKM"
+        >
+          <div class="d-flex pa-6 rounded-md">
+            <div class="mr-6 d-none d-sm-block">
+              <v-img src="/img/MagicPodsLogo.png" class="rounded-md" />
+            </div>
+            <div class="d-flex flex-column">
+              <div class="text-h5 font-weight-bold mb-2 d-flex align-center">
+                <div class="d-sm-none mr-4">
+                  <v-img
+                    src="/img/MagicPodsLogo.png"
+                    class="rounded-md"
+                    width="48"
+                    height="48"
+                  />
+                </div>
+                MagicPods
               </div>
-              MagicPods
-            </div>
-            <div class="mb-2 subtitle">Add a little magic to your AirPods.</div>
-            <div class="mb-1">
-              <microsoft-mini-btn />
+              <div class="mb-2 subtitle">
+                Add a little magic to your AirPods.
+              </div>
+              <div class="mb-1">
+                <microsoft-mini-btn />
+              </div>
             </div>
           </div>
-        </div>
+        </a>
 
-        <div class="d-flex pa-6 border rounded-md">
-          <div class="mr-6 d-none d-sm-block">
-            <v-img src="/img/DinoLogo.png" class="rounded-md" />
-          </div>
-          <div class="d-flex flex-column">
-            <div class="text-h5 font-weight-bold mb-2 d-flex align-center">
-              <div class="d-sm-none mr-4">
-                <v-img
-                  src="/img/DinoLogo.png"
-                  class="rounded-md"
-                  width="48"
-                  height="48"
-                />
+        <a
+          class="border hover:border-rainbow"
+          href="https://play.google.com/store/apps/details?id=yet.another.dino"
+        >
+          <div class="d-flex pa-6 rounded-md">
+            <div class="mr-6 d-none d-sm-block">
+              <v-img src="/img/DinoLogo.png" class="rounded-md" />
+            </div>
+            <div class="d-flex flex-column">
+              <div class="text-h5 font-weight-bold mb-2 d-flex align-center">
+                <div class="d-sm-none mr-4">
+                  <v-img
+                    src="/img/DinoLogo.png"
+                    class="rounded-md"
+                    width="48"
+                    height="48"
+                  />
+                </div>
+                Yet Another Dino
               </div>
-              Yet Another Dino
-            </div>
-            <div class="mb-2 subtitle">
-              Run, jump, and dodge in a dangerous adventure.
-            </div>
-            <div class="mb-1">
-              <v-img src="/google-play-logo.svg" height="24" width="24" />
+              <div class="mb-2 subtitle">
+                Run, jump, and dodge in a dangerous adventure.
+              </div>
+              <div class="mb-1">
+                <v-img src="/google-play-logo.svg" height="24" width="24" />
+              </div>
             </div>
           </div>
-        </div>
+        </a>
 
-        <div class="d-flex pa-6 border rounded-md">
-          <div class="mr-6 d-none d-sm-block">
-            <v-img src="/img/MagicSelectLogo.png" class="rounded-md" />
-          </div>
-          <div class="d-flex flex-column">
-            <div class="text-h5 font-weight-bold mb-2 d-flex align-center">
-              <div class="d-sm-none mr-4">
-                <v-img
-                  src="/img/MagicSelectLogo.png"
-                  class="rounded-md"
-                  width="48"
-                  height="48"
-                />
+        <a
+          class="border hover:border-rainbow"
+          href="https://www.microsoft.com/store/apps/9N78GWBTW7L5"
+        >
+          <div class="d-flex pa-6 rounded-md">
+            <div class="mr-6 d-none d-sm-block">
+              <v-img src="/img/MagicSelectLogo.png" class="rounded-md" />
+            </div>
+            <div class="d-flex flex-column">
+              <div class="text-h5 font-weight-bold mb-2 d-flex align-center">
+                <div class="d-sm-none mr-4">
+                  <v-img
+                    src="/img/MagicSelectLogo.png"
+                    class="rounded-md"
+                    width="48"
+                    height="48"
+                  />
+                </div>
+                MagicSelect
               </div>
-              MagicSelect
-            </div>
-            <div class="mb-2 subtitle">
-              Select and copy text from any images in many languages.
-            </div>
-            <div class="mb-1">
-              <microsoft-mini-btn />
+              <div class="mb-2 subtitle">
+                Select and copy text from any images in many languages.
+              </div>
+              <div class="mb-1">
+                <microsoft-mini-btn />
+              </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </v-container>
 </template>
 
 <script lang="ts">
-import MicrosoftMiniBtn from '../../components/MicrosoftMiniBtn.vue'
 import { Vue, Component } from 'vue-property-decorator'
+import MicrosoftMiniBtn from '../../components/MicrosoftMiniBtn.vue'
 
 @Component({
   components: { MicrosoftMiniBtn },
@@ -122,6 +139,22 @@ export default class Index extends Vue {}
     grid-template-areas:
       '. .'
       '. .';
+  }
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.hover\:border-rainbow {
+  border-radius: 8px;
+  &:hover {
+    background: linear-gradient(135deg, #ffb900, #7fba00, #00a4ef, #f25022);
+    padding: 1px;
+    border: none;
+    border-radius: 9px;
+    > div {
+      background-color: #fff;
+    }
   }
 }
 </style>
