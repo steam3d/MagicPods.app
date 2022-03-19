@@ -10,7 +10,7 @@
           class="border hover:border-rainbow"
           href="https://www.microsoft.com/store/apps/9P6SKKFKSHKM"
         >
-          <div class="d-flex pa-6 rounded-md">
+          <div class="d-flex pa-6 rounded-md fill-height">
             <div class="mr-6 d-none d-sm-block">
               <v-img src="/img/MagicPodsLogo.png" class="rounded-md" />
             </div>
@@ -40,7 +40,7 @@
           class="border hover:border-rainbow"
           href="https://play.google.com/store/apps/details?id=yet.another.dino"
         >
-          <div class="d-flex pa-6 rounded-md">
+          <div class="d-flex pa-6 rounded-md fill-height">
             <div class="mr-6 d-none d-sm-block">
               <v-img src="/img/DinoLogo.png" class="rounded-md" />
             </div>
@@ -70,7 +70,7 @@
           class="border hover:border-rainbow"
           href="https://www.microsoft.com/store/apps/9N78GWBTW7L5"
         >
-          <div class="d-flex pa-6 rounded-md">
+          <div class="d-flex pa-6 rounded-md fill-height">
             <div class="mr-6 d-none d-sm-block">
               <v-img src="/img/MagicSelectLogo.png" class="rounded-md" />
             </div>
@@ -156,5 +156,8 @@ a {
       background-color: #fff;
     }
   }
+}
+.apps-container a {
+  color: inherit;
 }
 </style>

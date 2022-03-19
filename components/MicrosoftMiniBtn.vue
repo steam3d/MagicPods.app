@@ -1,10 +1,10 @@
 <template>
-  <a class="ms-btn-mini">
+  <span class="ms-btn-mini">
     <div class="ms-mtn-mini__block ms-mtn-mini__block--r"></div>
     <div class="ms-mtn-mini__block ms-mtn-mini__block--g"></div>
     <div class="ms-mtn-mini__block ms-mtn-mini__block--b"></div>
     <div class="ms-mtn-mini__block ms-mtn-mini__block--y"></div>
-  </a>
+  </span>
 </template>
 
 <script lang="ts">
