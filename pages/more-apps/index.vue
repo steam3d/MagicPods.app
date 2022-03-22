@@ -4,7 +4,7 @@
       class="d-flex flex-wrap justify-center align-center flex-column"
       style="max-width: 896px"
     >
-      <h5 class="text-h3 font-weight-bold mb-12">More apps ✨</h5>
+      <h5 class="text-h3 font-weight-bold mb-12 heading">More apps ✨</h5>
       <div class="apps-container">
         <a
           class="border hover:border-rainbow"
@@ -159,5 +159,11 @@ a {
 }
 .apps-container a {
   color: inherit;
+}
+.heading {
+  @media (max-width: 425px) {
+    margin-bottom: 32px;
+    margin-top: 64px;
+  }
 }
 </style>
