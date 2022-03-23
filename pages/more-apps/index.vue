@@ -161,7 +161,7 @@ a {
   color: inherit;
 }
 .heading {
-  @media (max-width: 425px) {
+  @media (max-width: 655px) {
     margin-bottom: 32px;
     margin-top: 64px;
   }
