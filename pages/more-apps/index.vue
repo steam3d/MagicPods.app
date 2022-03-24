@@ -1,10 +1,10 @@
 <template>
   <v-container fluid class="d-flex align-center justify-center fill-height">
     <div
-      class="d-flex flex-wrap justify-center align-center flex-column"
+      class="d-flex flex-wrap justify-center align-center flex-column mt-16"
       style="max-width: 896px"
     >
-      <h5 class="text-h3 font-weight-bold mb-12 heading">More apps ✨</h5>
+      <h5 class="text-h3 font-weight-bold mb-12 mt-12">More apps ✨</h5>
       <div class="apps-container">
         <a
           class="border hover:border-rainbow"
@@ -159,11 +159,5 @@ a {
 }
 .apps-container a {
   color: inherit;
-}
-.heading {
-  @media (max-width: 655px) {
-    margin-bottom: 32px;
-    margin-top: 64px;
-  }
 }
 </style>
