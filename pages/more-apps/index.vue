@@ -8,26 +8,26 @@
       <div class="apps-container">
         <a
           class="border hover:border-rainbow"
-          href="https://www.microsoft.com/store/apps/9P6SKKFKSHKM"
+          href="https://www.microsoft.com/store/apps/9NGB2P0TSMBF"
         >
           <div class="d-flex pa-6 rounded-md fill-height">
             <div class="mr-6 d-none d-sm-block">
-              <v-img src="/img/MagicPodsLogo.png" class="rounded-md" />
+              <v-img src="/img/MagicTranslateLogo.png" class="rounded-md" max-height="150" max-width="150"/>
             </div>
             <div class="d-flex flex-column">
               <div class="text-h5 font-weight-bold mb-2 d-flex align-center">
                 <div class="d-sm-none mr-4">
                   <v-img
-                    src="/img/MagicPodsLogo.png"
+                    src="/img/MagicTranslateLogo.png"
                     class="rounded-md"
                     width="48"
                     height="48"
                   />
                 </div>
-                MagicPods
+                MagicTranslate
               </div>
               <div class="mb-2 subtitle">
-                Add a little magic to your AirPods.
+                Translate text with one hotkey
               </div>
               <div class="mb-1">
                 <microsoft-mini-btn />
@@ -42,7 +42,7 @@
         >
           <div class="d-flex pa-6 rounded-md fill-height">
             <div class="mr-6 d-none d-sm-block">
-              <v-img src="/img/DinoLogo.png" class="rounded-md" />
+              <v-img src="/img/DinoLogo.png" class="rounded-md" max-height="150" max-width="150"/>
             </div>
             <div class="d-flex flex-column">
               <div class="text-h5 font-weight-bold mb-2 d-flex align-center">
@@ -72,7 +72,7 @@
         >
           <div class="d-flex pa-6 rounded-md fill-height">
             <div class="mr-6 d-none d-sm-block">
-              <v-img src="/img/MagicSelectLogo.png" class="rounded-md" />
+              <v-img src="/img/MagicSelectLogo.png" class="rounded-md" max-height="150" max-width="150"/>
             </div>
             <div class="d-flex flex-column">
               <div class="text-h5 font-weight-bold mb-2 d-flex align-center">
@@ -95,6 +95,37 @@
             </div>
           </div>
         </a>
+
+        <a
+          class="border hover:border-rainbow"
+          href="https://www.microsoft.com/store/apps/9P6SKKFKSHKM"
+        >
+          <div class="d-flex pa-6 rounded-md fill-height">
+            <div class="mr-6 d-none d-sm-block">
+              <v-img src="/img/MagicPodsLogo.png" class="rounded-md" max-height="150" max-width="150"/>
+            </div>
+            <div class="d-flex flex-column">
+              <div class="text-h5 font-weight-bold mb-2 d-flex align-center">
+                <div class="d-sm-none mr-4">
+                  <v-img
+                    src="/img/MagicPodsLogo.png"
+                    class="rounded-md"
+                    width="48"
+                    height="48"
+                  />
+                </div>
+                MagicPods
+              </div>
+              <div class="mb-2 subtitle">
+                Add a little magic to your AirPods.
+              </div>
+              <div class="mb-1">
+                <microsoft-mini-btn />
+              </div>
+            </div>
+          </div>
+        </a>
+
       </div>
     </div>
   </v-container>

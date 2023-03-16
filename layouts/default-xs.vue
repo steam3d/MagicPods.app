@@ -22,7 +22,13 @@
         :dark="false"
         class="menu_overlay"
       >
-        <div class="d-flex flex-column justify-center align-center">
+        <div class="d-flex flex-column justify-center align-center">          
+          <v-list-item>
+            <v-btn href="https://discord.com/invite/UyY4PY768V" depressed rounded text>
+              Discord
+            </v-btn>
+          </v-list-item>
+
           <v-list-item>
             <v-btn
               href="/more-apps"
@@ -31,7 +37,7 @@
               text
               @click="overlay = false"
             >
-              More apps
+              Apps
             </v-btn>
           </v-list-item>
           <v-list-item>

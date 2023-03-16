@@ -8,25 +8,36 @@
       </v-toolbar-title>
       <v-spacer />
       <v-btn
+        href="https://discord.com/invite/UyY4PY768V"
+        depressed
+        rounded
+        color="white"
+        class="mr-0"
+      >
+        Discord
+      </v-btn>
+
+      <v-btn
         href
         :to="'/more-apps'"
         depressed
         rounded
         color="white"
-        class="mr-4"
+        class="mr-0"
       >
-        More apps
+        Apps
       </v-btn>
+
       <v-btn
         href="https://help.magicpods.app/"
         depressed
         rounded
         color="white"
-        class="mr-4"
+        class="mr-0"
       >
         Help
       </v-btn>
-      <v-btn href :to="'/privacy'" depressed rounded color="white" class="mr-4">
+      <v-btn href :to="'/privacy'" depressed rounded color="white" class="mr-0">
         Privacy
       </v-btn>
       <v-btn
@@ -34,7 +45,7 @@
         depressed
         rounded
         color="white"
-        class="mr-4"
+        class="mr-2"
       >
         Translate
       </v-btn>
