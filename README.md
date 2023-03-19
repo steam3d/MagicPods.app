@@ -13,8 +13,14 @@ yarn install
 # npm
 npm install
 
-# pnpm
-pnpm install --shamefully-hoist
+# установка сервера
+$ npm install http-server -g
+
+# запустить сервер в папке со статик файлами
+http-server
+
+# Запаковать файлы
+tar -cvzf output.tar.gz site
 ```
 
 ## Development Server

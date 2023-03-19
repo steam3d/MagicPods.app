@@ -44,6 +44,7 @@ const closeDrawer = () => {
   isDrawerOpened.value = false
 }
 const items: NavbarItemData[] = [
+  { title: 'Discord', link: 'https://discord.com/invite/UyY4PY768V' },
   { title: 'Apps', link: '/more-apps', internal: true },
   { title: 'Help', link: 'https://help.magicpods.app/' },
   { title: 'Privacy', link: '/privacy', internal: true },
