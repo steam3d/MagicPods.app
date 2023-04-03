@@ -9,7 +9,7 @@
       </template>
       <template #right-pane-content>
         <h1
-          class="mb-6 text-3xl font-bold sm:mb-8 sm:text-4xl lg:mb-12 xl:text-5xl xl:!leading-[56px]"
+          class="mb-6 text-3xl font-bold sm:mb-8 sm:text-4xl lg:mb-12 2xl:text-5xl 2xl:!leading-[56px]"
         >
           Купить MagicPods в&nbsp;России
         </h1>
