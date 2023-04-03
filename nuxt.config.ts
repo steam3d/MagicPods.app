@@ -15,6 +15,15 @@ export default defineNuxtConfig({
       ],
     },
   },
+  modules: [
+    [
+      'unplugin-vue-inspector/nuxt',
+      {
+        enabled: true,
+        toggleButtonVisibility: 'always',
+      },
+    ],
+  ],
   css: ['~/assets/css/tailwind.css'],
   postcss: {
     plugins: {

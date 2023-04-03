@@ -17,7 +17,7 @@
     >
       <div class="fixed right-0 top-0 h-14 w-1/2 bg-white lg:h-[104px]"></div>
       <section
-        class="mt-6 flex-col pt-14 lg:pt-[104px] sm:max-w-[564px] md:max-w-[542px] lg:mx-14 lg:mt-0 lg:max-w-[608px]"
+        class="mt-6 flex-col sm:max-w-[564px] md:max-w-[542px] lg:mx-14 lg:mt-0 lg:max-w-[608px] lg:pt-[104px]"
       >
         <slot name="right-pane-content" />
       </section>
