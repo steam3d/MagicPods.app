@@ -1,7 +1,7 @@
 <template>
-  <button class="radient-border flex rounded p-2.5">
+  <a class="radient-border flex rounded p-2.5" href="https://www.microsoft.com/store/apps/9P6SKKFKSHKM">
     <MicrosoftStoreButtontSvg style="width: 113px; height: 29px" />
-  </button>
+  </a>
 </template>
 
 <script setup lang="ts">

@@ -39,8 +39,8 @@
             </template>
           </UiArticle>
         </div>
-        <div>
-          <MicrosoftStoreButton />
+        <div class="flex">
+          <MicrosoftStoreButton/>
         </div>
       </template>
     </SplitPage>
