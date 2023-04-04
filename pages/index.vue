@@ -2,7 +2,7 @@
   <UiMain class="relative z-0 min-h-[593px]">
     <SplitPage>
       <template #left-pane-image>
-        <img src="/bg.png" class="absolute top-0 h-full w-full object-cover" />
+        <img src="/bg.webp" class="absolute top-0 h-full w-full object-cover" />
       </template>
       <template #right-pane-content>
         <h1

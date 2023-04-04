@@ -12,7 +12,7 @@
         class="mx-2 my-8 grid w-full max-w-sm grid-rows-1 gap-6 sm:grid-rows-none md:max-w-none md:grid-cols-3 lg:max-w-[858px]"
       >
         <ProductCard
-          link="https://play.google.com/store/apps/details?id=yet.another.dino"
+          link="https://www.microsoft.com/store/apps/9NGB2P0TSMBF"
         >
           <template #image>
             <div
@@ -22,7 +22,7 @@
             </div>
           </template>
           <template #title> MagicTranslate </template>
-          <template #content> Translate text with one hotkey </template>
+          <template #content> Translate text with one hotkey.</template>
           <template #button-content>
             <MicrosoftLogoIcon />
             Download
@@ -48,13 +48,13 @@
           </template>
         </ProductCard>
         <ProductCard
-          link="https://apps.microsoft.com/store/detail/magicselect-%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D1%83%D0%B9-%D1%82%D0%B5%D0%BA%D1%81%D1%82-%D1%81-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA/9N78GWBTW7L5?hl=ru-ru&gl=ru&rtc=1https://www.microsoft.com/store/apps/9N78GWBTW7L5"
+          link="https://www.microsoft.com/store/apps/9N78GWBTW7L5"
         >
           <template #image>
             <div
               class="flex h-full items-center justify-center rounded bg-[#ffb800]"
             >
-              <img src="/magic-select.svg" class="w-[72px]" />
+              <img src="/magic-select.png" class="w-[72px]" />
             </div>
           </template>
           <template #title> MagicSelect </template>
@@ -67,24 +67,7 @@
             Download
           </template>
         </ProductCard>
-        <ProductCard link="https://www.microsoft.com/store/apps/9P6SKKFKSHKM">
-          <template #image>
-            <div
-              class="flex h-full items-center justify-center rounded bg-[#004F8D]"
-            >
-              <img src="/magic-pods.svg" class="w-[84px]" />
-            </div>
-          </template>
-          <template #title> MagicSelect </template>
-          <template #content>
-            Select and copy text from any images in&nbsp;many languages.
-          </template>
-          <template #button-content>
-            <MicrosoftLogoIcon />
-
-            Download
-          </template>
-        </ProductCard>
+        
       </div>
     </div>
   </UiMain>
