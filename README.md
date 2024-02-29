@@ -45,4 +45,10 @@ Locally preview production build:
 npm run preview
 ```
 
+Generate static
+
+```bash
+npm run generate
+```
+
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
