@@ -1,20 +1,17 @@
 <template>
-  <v-container fluid class="d-flex align-center justify-center fill-height">
+  <UiMain class="relative z-0 overflow-hidden">
+    <div class="fixed top-0 left-0 h-14 w-full bg-white lg:h-[104px]"></div>
     <div
-      class="d-flex flex-wrap justify-center align-center flex-column"
-      style="max-width: 628px"
+      class="mx-[38px] mt-[calc(50vh_-_28px_-_64px)] flex flex-col items-center font-bold"
     >
-      <h5 class="text-h5 font-weight-bold pb-2">Privacy policy</h5>
-      <h3 class="text-h3 font-weight-bold pb-12 text-center">
+      <div class="mb-4 text-xl">Privacy policy</div>
+      <h1
+        class="mb-1 max-w-[514px] text-center text-3xl sm:text-4xl xl:text-5xl xl:!leading-[56px]"
+      >
         MagicPods doesn't collect any user data
-      </h3>
+      </h1>
     </div>
-  </v-container>
+  </UiMain>
 </template>
 
-<script lang="ts">
-import { Vue, Component } from 'vue-property-decorator'
-
-@Component({})
-export default class Index extends Vue {}
-</script>
+<script lang="ts" setup></script>
