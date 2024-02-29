@@ -1,12 +1,8 @@
 <template>
-  <a class="radient-border flex rounded p-2.5" href="https://www.microsoft.com/store/apps/9P6SKKFKSHKM">
-    <MicrosoftStoreButtontSvg style="width: 113px; height: 29px" />
+  <a class="radient-border flex rounded p-2.5">
+    <slot />
   </a>
 </template>
-
-<script setup lang="ts">
-import MicrosoftStoreButtontSvg from './MicrosoftStoreButtontSvg'
-</script>
 
 <style scoped>
 .radient-border {

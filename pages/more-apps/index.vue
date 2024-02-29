@@ -9,11 +9,24 @@
       </h1>
       <div class="opacity-75">Take a&nbsp;look at&nbsp;other apps</div>
       <div
-        class="mx-2 my-8 grid w-full max-w-sm grid-rows-1 gap-6 sm:grid-rows-none md:max-w-none md:grid-cols-3 lg:max-w-[858px]"
+        class="mx-2 my-8 grid w-full max-w-sm grid-rows-1 gap-6 sm:grid-rows-none md:max-w-xl md:grid-cols-2 lg:max-w-screen-lg lg:grid-cols-4"
       >
-        <ProductCard
-          link="https://www.microsoft.com/store/apps/9NGB2P0TSMBF"
-        >
+        <ProductCard link="/steamdeck">
+          <template #image>
+            <div
+              class="flex h-full items-center justify-center rounded bg-[#0D141C]"
+            >
+              <img src="/steam-deck-pods.svg" class="w-[88px]" />
+            </div>
+          </template>
+          <template #title> MagicPods for Steam Deck </template>
+          <template #content>Add a little magic to your AirPods.</template>
+          <template #button-content>
+            <SteamDeckIcon />
+            Download
+          </template>
+        </ProductCard>
+        <ProductCard link="https://www.microsoft.com/store/apps/9NGB2P0TSMBF">
           <template #image>
             <div
               class="flex h-full items-center justify-center rounded bg-[#C7E7FF]"
@@ -47,9 +60,7 @@
             Download
           </template>
         </ProductCard>
-        <ProductCard
-          link="https://www.microsoft.com/store/apps/9N78GWBTW7L5"
-        >
+        <ProductCard link="https://www.microsoft.com/store/apps/9N78GWBTW7L5">
           <template #image>
             <div
               class="flex h-full items-center justify-center rounded bg-[#ffb800]"
@@ -67,14 +78,14 @@
             Download
           </template>
         </ProductCard>
-        
       </div>
     </div>
   </UiMain>
 </template>
 
 <script lang="ts" setup>
-import ProductCard from '@/components/ProductCard.vue'
-import MicrosoftLogoIcon from '@/components/Icons/MicrosoftLogoIcon'
 import GooglePlayIcon from '@/components/Icons/GooglePlayIcon'
+import MicrosoftLogoIcon from '@/components/Icons/MicrosoftLogoIcon'
+import SteamDeckIcon from '@/components/Icons/SteamDeckIcon'
+import ProductCard from '@/components/ProductCard.vue'
 </script>

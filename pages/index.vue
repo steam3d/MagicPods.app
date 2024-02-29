@@ -39,8 +39,13 @@
             </template>
           </UiArticle>
         </div>
-        <div class="flex">
-          <MicrosoftStoreButton/>
+        <div class="flex space-x-4">
+          <StoreButton href="https://www.microsoft.com/store/apps/9P6SKKFKSHKM">
+            <MicrosoftStoreButtontSvg style="width: 113px; height: 29px" />
+          </StoreButton>
+          <StoreButton href="/steamdeck">
+            <SteamStoreButtonSvg style="width: 113px; height: 29px" />
+          </StoreButton>
         </div>
       </template>
     </SplitPage>
@@ -48,5 +53,7 @@
 </template>
 
 <script lang="ts" setup>
-import MicrosoftStoreButton from '@/components/Ui/StoreButtons/MicrosoftStoreButton.vue'
+import StoreButton from '@/components/Ui/StoreButtons/StoreButton.vue'
+import MicrosoftStoreButtontSvg from '@/components/Ui/StoreButtons/MicrosoftStoreButtontSvg'
+import SteamStoreButtonSvg from '@/components/Ui/StoreButtons/SteamStoreButtonSvg'
 </script>
