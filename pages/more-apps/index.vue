@@ -16,7 +16,7 @@
             <div
               class="flex h-full items-center justify-center rounded bg-[#0D141C]"
             >
-              <img src="/steam-deck-pods.png" class="w-[88px]" />
+              <img src="/assets/steam-deck-pods.png" class="w-[88px]" />
             </div>
           </template>
           <template #title> MagicPods for Steam Deck </template>
@@ -31,7 +31,7 @@
             <div
               class="flex h-full items-center justify-center rounded bg-[#C7E7FF]"
             >
-              <img src="/magic-translate.png" class="w-[88px]" />
+              <img src="/assets/magic-translate.png" class="w-[88px]" />
             </div>
           </template>
           <template #title> MagicTranslate </template>
@@ -48,7 +48,7 @@
             <div
               class="flex h-full items-center justify-center rounded bg-[#4A2B0D]"
             >
-              <img src="/dino.png" class="w-[88px]" />
+              <img src="/assets/dino.png" class="w-[88px]" />
             </div>
           </template>
           <template #title> Yet Another Dino </template>
@@ -65,7 +65,7 @@
             <div
               class="flex h-full items-center justify-center rounded bg-[#ffb800]"
             >
-              <img src="/magic-select.png" class="w-[72px]" />
+              <img src="/assets/magic-select.png" class="w-[72px]" />
             </div>
           </template>
           <template #title> MagicSelect </template>

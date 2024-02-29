@@ -3,7 +3,7 @@
     <SplitPage>
       <template #left-pane-image>
         <img
-          src="/bg-russia.jpg"
+          src="/assets/bg-russia.jpg"
           class="absolute top-0 h-full w-full -scale-x-[1] object-cover object-right"
         />
       </template>

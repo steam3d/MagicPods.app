@@ -21,7 +21,7 @@ export default defineNuxtConfig({
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap',
         },
-        { rel: 'icon', type: 'image/svg', href: '/favicon.svg' },
+        { rel: 'icon', type: 'image/svg', href: '/assets/favicon.svg' },
       ],
     },
   },

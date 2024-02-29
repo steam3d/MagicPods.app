@@ -4,7 +4,7 @@
   >
     <div class="flex items-center">
       <NuxtLink href="/">
-        <img src="/logo.svg" class="flex min-w-[160px] pb-2" />
+        <img src="/assets/logo.svg" class="flex min-w-[160px] pb-2" />
       </NuxtLink>
     </div>
     <ul class="hidden gap-x-4 md:flex">
