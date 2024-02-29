@@ -16,7 +16,7 @@
             <div
               class="flex h-full items-center justify-center rounded bg-[#0D141C]"
             >
-              <img src="/steam-deck-pods.svg" class="w-[88px]" />
+              <img src="/steam-deck-pods.png" class="w-[88px]" />
             </div>
           </template>
           <template #title> MagicPods for Steam Deck </template>
