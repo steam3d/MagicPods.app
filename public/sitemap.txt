@@ -6,3 +6,7 @@ https://magicpods.app/magicselect/privacy.html
 https://magicpods.app/yetanotherdino/
 https://magicpods.app/magictranslate/
 https://magicpods.app/magictranslate/privacy.html
+https://magicpods.app/steamdeck/
+https://magicpods.app/installation/
+https://magicpods.app/pages/
+https://magicpods.app/quick-tutorial/
